@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    text-align: right;
+}
+
+.nav p {
+    display: inline-block;
+    text-decoration: none;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
+
+h1 {
+    display: block;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    background-color: grey;
+    text-align: center;
+}
+
+.skillList {
+    text-align: center;
+}
+
+.skillList p {
+    display: inline-block;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
+
+.quizApp p {
+    text-align: center;
+}
