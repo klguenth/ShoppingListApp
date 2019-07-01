@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  color: black;
+}
+
+.mainHeader {
+  text-align: center;
+  color: black;
+  border: 1px solid darkgrey;
+}
+
+.button {
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid darkgrey;
+  padding: 15px;
+}
+
+.questionAndAnswerForm {
+  text-align: center;
+}
+
+footer {
+  display: inline;
+}
+
+.questionCount {
+  float: left;
+}
+
+.scoreCount {
+  float: right;
+}

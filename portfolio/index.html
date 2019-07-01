@@ -2,49 +2,104 @@
 <html lang="en">
 
 <head>
-    <title>HTML wireframe</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Kelsey Guenther Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
 </head>
 
 <body>
-    <div class="nav">
-        <p>Email</p>
-        <p>LinkedIn</p>
-        <p>GitHub</p>
-    </div>
+
+    <header class="photo" role="header">
+        <div class="divPhoto">
+            <img src="images/kelsey-photo.jpg" class="selfPhoto" alt="photo of me">
+        </div>
+    </header>
+
     <main role="main">
-        <header role="banner">
-            <h1>HeroIntro</h1>
-        </header>
+
 
         <section class="aboutMe">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue libero, lacinia at ligula
-                blandit, malesuada euismod ipsum. Fusce feugiat nisl ullamcorper venenatis dapibus. Sed dignissim
-                condimentum quam, nec vehicula augue hendrerit ac. Vestibulum faucibus libero a ullamcorper auctor.
+            <h1 class="introName">Hi there, my name is Kelsey.</h1>
+            <h2 class="headline">I'm currently a student at Thinkful in the Fullstack Flex program.</h2>
+            <p class="bio">I am a web developer-in-training, based in the Minneapolis/St. Paul area. I became interested
+                in coding when I reached a point in my career where I was no longer learning or developing my skills.
+                Since starting down the path of web development, I have learned HTML, CSS, JavaScript, and jQuery.</p>
+
+            <p>
+                When I'm not at my computer, you can find me enjoying a variety of interests: I love to SCUBA dive,
+                garden, fish, and am equally as happy on the couch taking in episodes of Game of Thrones and Shark Week.
             </p>
         </section>
 
-        <section class="skills">
-            <h2>Skills</h2>
-            <div class="skillList">
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
-                <p>jQuery</p>
+        <div class="skills">
+            <h2 class="skillsTitle">Skills</h2>
+            <ul class="skillList">
+                <li class="html"><img src="images/html.png" class="htmlLogo" alt="html logo"><br>HTML</li>
+                <li class="css"><img src="images/css.png" class="cssLogo" alt="css logo"><br>CSS</li>
+                <li class="javascript"><img src="images/javascript.png" class="javascriptLogo"
+                        alt="javascript logo"><br>JavaScript</li>
+                <li class="jquery"><img src="images/jquery-logo.png" class="jqueryLogo" alt="jquery logo"><br>jQuery
+                </li>
+            </ul>
+        </div>
+
+        <section class="projects">
+            <h2 class="projectHeader">Projects</h2>
+            <a href="https://klguenth.github.io/quiz-app-final/"><img class="quizAppImg" alt="Screenshot of Quiz App"
+                    src="images/quizapp-screenshot.png"></a>
+            <div class="projectLinks">
+                <a href="https://klguenth.github.io/quiz-app-final/">Live</a>
+                <a href="https://github.com/klguenth/quiz-app-final">Repo</a>
+            </div>
+            <p class="projectDescription">
+                This is a quiz app that utilizes HTML, CSS, JavaScript, and jQuery to test your knowledge on all things
+                dolphin-related.
+            </p>
+
+            <a href="hhttps://klguenth.github.io/animalia-app/"><img class="apiScreenshotImg"
+                    alt="Screenshot of API App" src="images/APIScreenshotImg.png"></a>
+            <div class="projectLinks">
+                <a href="https://klguenth.github.io/animalia-app/">Live</a>
+                <a href="https://github.com/klguenth/animalia-app">Repo</a>
+            </div>
+            <p class="projectDescription">
+                This is an app that demonstrates the use of APIs using HTML, CSS, Javascript, and jQuery. It was created
+                with the intention of fostering curiosity of the varied animal species that inhabit our world.
+            </p>
+        </section>
+
+        <section class="contact">
+            <h2 class="contactMe">Contact Me</h2>
+            <div class="contactMenu">
+                <a href="mailto:klguenth@gmail.com" target="_blank" alt="contact" class="email"><img
+                        src="images/mail-black-envelope-symbol.png" class="emailLogo" alt="email logo"></a>
+                <a href="https://www.linkedin.com/in/kelsey-guenther-bb62553a/" alt="contact" class="linkedIn"><img
+                        src="images/linkedin-logo.png" class="linkedinLogo" alt="linkedin logo"></a>
+                <a href="https://github.com/klguenth" alt="contact" class="gitHub"><img src="images/github-sign.png"
+                        class="githubLogo" alt="github logo"></a>
             </div>
         </section>
 
-        <section class=" projects">
-            <h2>Projects</h2>
-            <div class="quizApp">
-                <p>Quiz App</p>
-            </div>
-        </section>
     </main>
 
+    <footer role="footer" class="footer">
+        <div>Icons made by <a href="https://www.flaticon.com/authors/chris-veigt" title="Chris Veigt">Chris Veigt</a>
+            from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+                href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC
+                3.0 BY</a></div>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+                href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC
+                3.0 BY</a></div>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+                href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC
+                3.0 BY</a></div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

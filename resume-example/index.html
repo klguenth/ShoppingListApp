@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sally Resume</title>
+</head>
+
+<body>
+    <div id="application-root"></div>
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js">
+    </script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+    </script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js">
+    </script>
+    <script type="text/babel">
+        const App = document.createElement('div');
+
+        ReactDOM.render(
+            <div>
+            <header role="header">
+            <h1>Sally Student Resume</h1>
+            <section className="contactInfo">
+                <img src="images/sallystudent.jpg" alt="Sally Student"></img>
+                <h2>Sally Student</h2>
+                <p>Email: sallystudent@school.com</p>
+                <p>Phone: 987-654-3210</p>
+                    <address>
+                    123 Main Street
+                    New York, NY 12345
+                    </address>
+            </section>
+            </header>
+            <main>
+                <section className="employmentInfo">
+                    <h2>Work Experience</h2>
+                    <ul>
+                        <li>
+                        <h3>Shedd Aquarium</h3>
+                        <h4>Curator of Marine Mammals</h4>
+                        <p>February 2014-Current</p>
+                        <p>Manages marine mammal collection, including husbandry, reproduction, animal health and wellness. Oversees staff and handles administrative duties regarding operations within the departments.</p>
+                        </li>
+                        <li>
+                        <h3>Georgia Aquarium</h3>
+                        <h4>Marine Mammal Biologist</h4>
+                        <p>May 2007-February 2014</p>
+                        <p>Responsible for animal husbandry and training, coordinating educational presentations. Oversaw staffing at a department level, general departmental administrative duties.</p>
+                        </li>
+                    </ul>
+                </section>
+                <section className="educationInfo">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>
+                        <h3>University of South Carolina</h3>
+                        <h4>Master's of Science in Marine Biology</h4>
+                        <p>Summa Cum Laude, Class of 2007</p>
+                        </li>
+                        <li>
+                        <h3>UCLA</h3>
+                        <h4>Bachelor's of Science in Biology, Minor in Environmental Science</h4>
+                        <p>Class of 2003</p>
+                        </li>
+                    </ul>
+                </section>
+            </main>
+            </div>,
+            document.querySelector('#application-root')
+            );
+            
+    </script>
+
+</body>
+
+</html>

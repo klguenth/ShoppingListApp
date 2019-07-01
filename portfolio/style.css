@@ -2,41 +2,266 @@
     box-sizing: border-box;
 }
 
-.nav {
-    text-align: right;
+body {
+    background-color: white;
+    background-image: url('images/white-waves.png');
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
 }
 
-.nav p {
-    display: inline-block;
-    text-decoration: none;
-    background-color: lightgrey;
-    border: 1px solid lightgrey;
-    padding: 5px;
+a:active {
+    color: rgb(66, 244, 226);
 }
 
-h1 {
+a:visited {
+    color: rgb(152, 193, 249);
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.selfPhoto {
     display: block;
-    background-color: lightgrey;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+    box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+}
+
+.introName {
+    font-size: 30px;
+    margin-top: 50px;
     text-align: center;
 }
 
 h2 {
-    display: block;
-    background-color: grey;
+    font-size: 22px;
     text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+p {
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .skillList {
+    background-color: rgb(65, 133, 242);
+    border: 1px solid lightslategrey;
+    padding: 20px;
+    list-style-type: none;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.skillList p {
+.skillList li {
     display: inline-block;
-    background-color: lightgrey;
-    border: 1px solid lightgrey;
-    padding: 5px;
+    font-size: 16px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.quizApp p {
+.htmlLogo {
+    width: 30px;
+    height: auto;
+}
+
+.cssLogo {
+    width: 30px;
+    height: auto;
+}
+
+.javascriptLogo {
+    width: 30px;
+    height: auto;
+}
+
+.jqueryLogo {
+    width: 30px;
+    height: auto;
+}
+
+.projects {
     text-align: center;
+}
+
+.quizAppImg {
+    width: 60%;
+    height: auto;
+    border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    border: 1px solid lightslategrey;
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+    box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+}
+
+.apiScreenshotImg {
+    width: 60%;
+    height: auto;
+    border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    border: 1px solid lightslategrey;
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+    box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+}
+
+.projectLinks {
+    display: flex;
+    margin-top: 15px;
+    max-width: 500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.projectLinks a {
+    background-color: rgb(65, 133, 242);
+    border-radius: 12px;
+    text-decoration: none;
+    padding: 6px 18px;
+    color: white;
+    margin: 20px 10px;
+    border: 1px solid lightslategrey;
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+    box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+}
+
+.projectLinks a:hover {
+    background-color: rgb(9, 66, 133);
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+    box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.92);
+}
+
+.quizAppLive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quizAppRepo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectDescription {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.contact {
+    border-top: 1px dashed black;
+}
+
+.contactMe {
+    margin-top: 30px;
+}
+
+.contactMenu {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.emailLogo {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+.linkedinLogo {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.githubLogo {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .introName {
+        font-size: 50px;
+        margin-top: 75px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .aboutMe {
+        max-width: 600px;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+
+    .photo {
+        display: flex;
+        justify-content: center;
+        margin-top: 75px;
+    }
+
+    .selfPhoto {
+        display: block;
+        width: 250px;
+        height: auto;
+        border-radius: 50%;
+        -webkit-box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+        -moz-box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+        box-shadow: 0px 6px 5px 0px rgba(208, 223, 250, 0.62);
+    }
+
+    .introName {
+        font-size: 50px;
+        margin-top: 75px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .quizAppLive {
+        display: block;
+        margin-top: 15px;
+        margin-left: 220px;
+        margin-right: 220px;
+    }
+
+    .quizAppRepo {
+        display: block;
+        margin-left: 220px;
+        margin-right: 220px;
+    }
+
 }
